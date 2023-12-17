@@ -1,10 +1,10 @@
 # Building on OpenBSD
-- Copy ROM to cloned directory
-- ```
-  CFLAGS="-Wno-implicit-int"
-  gmake smw_assets.dat
-  gmake smw
-  ```
+Copy ROM to cloned directory, then run the following:
+```
+export CFLAGS="-Wno-implicit-int"
+gmake smw_assets.dat
+gmake smw
+```
 Original README is preserved below.
 
 # smw
