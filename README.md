@@ -1,3 +1,12 @@
+# Building on OpenBSD
+- Copy ROM to cloned directory
+- ```
+  CFLAGS="-Wno-implicit-int"
+  gmake smw_assets.dat
+  gmake smw
+  ```
+Original README is preserved below.
+
 # smw
 A reimplementation of Super Mario World.
 
